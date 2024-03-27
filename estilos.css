@@ -1,0 +1,17 @@
+.banner{
+    background-image: url(./assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.png);
+    height: calc(100vh - 48px);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width:200px) and (max-width:400px){
+    .banner{
+        background-position: center;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:800px){
+    .banner{
+        background-position: right;
+    }
+}
