@@ -1,17 +1,75 @@
+/* BANNER INICIA */
 .banner{
     background-image: url(./assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.png);
-    height: calc(100vh - 48px);
+    height: 73vh;
     background-position: center;
     background-size: cover;
 }
-
-@media only screen and (min-width:200px) and (max-width:400px){
-    .banner{
-        background-position: center;
-    }
+.banner h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
 }
+.banner p{
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+/* BANNER TERMINA */
+
+/* FEATURES INICIA */
+.icon{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 18px;
+}
+.features p{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+/* FEATURES TERMINA */
+
+/* FOOTER INICIA */
+.redes a{
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 15px;
+    color: white;
+}
+/* FOOTER TERMINA */
+
+/* MEDIA QUERYS INICIA */
+@media only screen and (min-width:768px){
+    /* BANNER INICIA */
+    .banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    }
+    .banner p{
+    font-size: 30px;
+    text-shadow: 1px 1px 3px black;
+    }
+    /* BANNER TERMINA */
+
+    /* FOOTER INICA */
+    .legales p{
+        font-size: 25px;
+    }
+    .nav-bt li{
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+    .nav-bt a{
+    font-size: 25px;
+    }
+    /* FOOTER TERMINA */
+}
+
 @media only screen and (min-width:400px) and (max-width:800px){
+    /* BANNER INICIA */
     .banner{
         background-position: right;
     }
+    /* BANNER TERMINA */
 }
+/* MEDIA QUERYS TERMINA */
