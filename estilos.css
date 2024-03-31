@@ -25,8 +25,26 @@
 .features p{
     font-size: 20px;
     margin-bottom: 18px;
+    line-height: 1.5;
 }
+
 /* FEATURES TERMINA */
+
+/* MUESTRA INICIA */
+.img-muestra{
+    background-size: cover;
+    background-position: center;
+}
+.bg-muestra{
+    background-color: #363D43;
+}
+.bg-muestra h1{
+    font-size: 28px;
+}
+.bg-muestra p{
+    font-size: 20px;
+}
+/* MUESTRA TERMINA */
 
 /* FOOTER INICIA */
 .redes a{
@@ -37,32 +55,75 @@
 }
 /* FOOTER TERMINA */
 
+/* CONTACTANOS INICIA */
+.cont-form{
+    margin-top: 10px;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 450 !important;
+}
+/* CONTACTANOS TERMINA */
+
 /* MEDIA QUERYS INICIA */
 @media only screen and (min-width:768px){
     /* BANNER INICIA */
     .banner h1{
-    font-size: 70px;
-    font-weight: 700;
-    text-shadow: 2px 2px 5px black;
+        font-size: 70px;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px black;
     }
     .banner p{
-    font-size: 30px;
-    text-shadow: 1px 1px 3px black;
+        font-size: 30px;
+        text-shadow: 1px 1px 3px black;
+    }
+    .banner{
+        height: 70vh;
     }
     /* BANNER TERMINA */
-
+    
     /* FOOTER INICA */
     .legales p{
         font-size: 25px;
     }
     .nav-bt li{
-    padding-left: 25px;
-    padding-right: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .nav-bt a{
-    font-size: 25px;
+        font-size: 25px;
     }
     /* FOOTER TERMINA */
+    
+    /* CONTACTANOS INICIA */
+    
+    .cont-form{
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    .google-maps {
+        position: relative;
+        padding-bottom: 35%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    /* CONTACTANOS TERMINA */
 }
 
 @media only screen and (min-width:400px) and (max-width:800px){
@@ -71,5 +132,15 @@
         background-position: right;
     }
     /* BANNER TERMINA */
+}
+@media only screen and (min-width:1024px){
+    /* MUESTRA INICIA */
+    .bg-muestra h2{
+        font-size: 40px;
+    }
+    .bg-muestra p{
+        font-size: 20px;
+    }
+    /* MUESTRA TERMINA */
 }
 /* MEDIA QUERYS TERMINA */
