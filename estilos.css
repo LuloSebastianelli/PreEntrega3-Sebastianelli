@@ -27,7 +27,6 @@
     margin-bottom: 18px;
     line-height: 1.5;
 }
-
 /* FEATURES TERMINA */
 
 /* MUESTRA INICIA */
@@ -46,12 +45,38 @@
 }
 /* MUESTRA TERMINA */
 
+/* CARDS INICIA */
+.grow{
+    transition: all 1s ease-in-out;
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+/* CARDS TERMINA */
+
 /* FOOTER INICIA */
 .redes a{
     text-decoration: none;
     font-size: 50px;
     letter-spacing: 15px;
     color: white;
+}
+.fa-brands{
+    transition: 0.4s ease-in-out;
+}
+.fa-x-twitter:hover{
+    color: #b8b8b8;
+}
+.fa-facebook:hover{
+    color: #2050b3;
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+.fa-instagram:hover{
+    color: transparent;
 }
 /* FOOTER TERMINA */
 
@@ -67,12 +92,31 @@
 }
 .google-maps iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: auto;
     width: 100% !important;
     height: 450 !important;
 }
 /* CONTACTANOS TERMINA */
+
+/* PRODUCTOS INICIA */
+
+.gift img{
+    width: 100%;
+    height: 250px;
+    border: solid 5px lightskyblue;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+.gift img:hover{
+    transform: scale(1.1);
+}
+.gift h5{
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+/* PRODUCTOS TERMINA */
 
 /* MEDIA QUERYS INICIA */
 @media only screen and (min-width:768px){
@@ -109,6 +153,7 @@
     .cont-form{
         margin-top: 10px;
         margin-bottom: 100px;
+        padding-left: 50px;
     }
     .google-maps {
         position: relative;
@@ -124,6 +169,13 @@
         height: 100% !important;
     }
     /* CONTACTANOS TERMINA */
+
+    /* PRDOUCTOS INICIA */
+    .gift{
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    /* PRDOUCTOS TERMINA */
 }
 
 @media only screen and (min-width:400px) and (max-width:800px){
