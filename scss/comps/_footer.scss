@@ -1,0 +1,37 @@
+.redes a{
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 15px;
+    color: white;
+    i{
+        transition: 0.4s ease-in-out;
+    }
+}
+.fa-x-twitter:hover{
+    color: #b8b8b8;
+}
+.fa-facebook:hover{
+    color: #2050b3;
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+.fa-instagram:hover{
+    color: transparent;
+}
+
+@include mediaquery(768px) {
+    .legales p{
+        font-size: 25px;
+    }
+    .nav-bt li{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .nav-bt a{
+        font-size: 25px;
+    }
+}

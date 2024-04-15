@@ -1,0 +1,22 @@
+.bg-muestra{
+    background-color: #363D43;
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.img-muestra{
+    background-size: cover;
+    background-position: center;
+}
+
+@include mediaquery(1024px) {
+    .bg-muestra h2{
+        font-size: 40px;
+    }
+    .bg-muestra p{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.cont-form{
+    margin-top: 10px;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    iframe {
+        position: absolute;
+        top: 0px;
+        left: auto;
+        width: 100% !important;
+        height: 450 !important;
+    }
+}
+.h1-cont{
+    font-weight: 600;
+    text-shadow: $tshadow;
+}
+
+@include mediaquery(768px) {
+    .cont-form{
+        margin-top: 10px;
+        margin-bottom: 100px;
+        padding-left: 50px;
+    }
+    .google-maps {
+        position: relative;
+        padding-bottom: 35%;
+        height: 0;
+        overflow: hidden;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+}

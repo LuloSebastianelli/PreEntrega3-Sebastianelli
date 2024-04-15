@@ -1,0 +1,13 @@
+.h1-cono{
+    font-weight: 600;
+    text-shadow: $tshadow;
+}
+.container-cono img{
+    border: solid 5px #363D43;
+}
+
+@include mediaquery(768px) {
+    .container-cono p{
+        font-size: 18px;
+    }
+}
