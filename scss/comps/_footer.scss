@@ -25,13 +25,13 @@
 
 @include mediaquery(768px) {
     .legales p{
-        font-size: 25px;
+        font-size: 1.563rem;
     }
     .nav-bt li{
         padding-left: 25px;
         padding-right: 25px;
     }
     .nav-bt a{
-        font-size: 25px;
+        font-size: 1.563rem;
     }
 }

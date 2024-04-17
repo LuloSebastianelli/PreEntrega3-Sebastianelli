@@ -1,28 +1,27 @@
 /* BANNER INICIA */
 .banner {
-  background-image: url(../../assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.png);
+  background-image: url(../assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.png);
   height: 73vh;
   background-position: center;
   background-size: cover;
 }
 .banner h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   text-shadow: 2px 2px 5px #363D43;
 }
 .banner p {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-shadow: 1px 1px 3px #363D43;
 }
 
 @media screen and (min-width: 768px) {
   .banner h1 {
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 4.375rem;
     text-shadow: 2px 2px 5px #363D43;
   }
   .banner p {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-shadow: 1px 1px 3px #363D43;
   }
   .banner {
@@ -38,7 +37,7 @@
 }
 
 .features p {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 18px;
   line-height: 1.5;
 }
@@ -46,13 +45,13 @@
 /* FEATURES TERMINA */
 /* MUESTRA INICIA */
 .bg-muestra {
-  background-color: #363D43;
+  background-color: #31598B;
 }
 .bg-muestra h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 .bg-muestra p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .img-muestra {
@@ -62,10 +61,10 @@
 
 @media screen and (min-width: 1024px) {
   .bg-muestra h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .bg-muestra p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 /* MUESTRA TERMINA */
@@ -76,6 +75,11 @@
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 /* CARDS TERMINA */
@@ -111,14 +115,14 @@
 
 @media screen and (min-width: 768px) {
   .legales p {
-    font-size: 25px;
+    font-size: 1.563rem;
   }
   .nav-bt li {
     padding-left: 25px;
     padding-right: 25px;
   }
   .nav-bt a {
-    font-size: 25px;
+    font-size: 1.563rem;
   }
 }
 /* FOOTER TERMINA */
@@ -193,10 +197,36 @@
   }
 }
 /* PRODUCTOS TERMINA */
+/* SERVICIOS INICIA */
+.main-servicios {
+  color: white;
+  text-align: center;
+}
+.main-servicios h1 {
+  text-shadow: 2px 2px 5px #363D43;
+  font-size: 3rem;
+}
+.main-servicios p {
+  text-shadow: 1px 1px 3px #363D43;
+  font-size: 1.1rem;
+}
+
+.carousel-item img {
+  max-height: 700px;
+}
+.carousel-item h1 {
+  text-shadow: 2px 2px 5px #363D43;
+}
+
+/* SERVICIOS TERMINA */
 /* CONOCENOS INCIA */
 .h1-cono {
   font-weight: 600;
   text-shadow: 2px 2px 5px #363D43;
+}
+
+.container-cono p {
+  font-size: 1rem;
 }
 
 .container-cono img {
@@ -205,7 +235,15 @@
 
 @media screen and (min-width: 768px) {
   .container-cono p {
-    font-size: 18px;
+    font-size: 0.9rem;
   }
 }
-/* CONOCENOS TERMINA *//*# sourceMappingURL=estilos.css.map */
+@media screen and (min-width: 991px) {
+  .container-cono p {
+    font-size: 1.125rem;
+  }
+}
+/* CONOCENOS TERMINA */
+.bg-dark {
+  background-color: #011936 !important;
+}/*# sourceMappingURL=estilos.css.map */

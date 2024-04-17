@@ -22,6 +22,12 @@
 /* PRODUCTOS INICIA */
 @import "../scss/comps/productos";
 /* PRODUCTOS TERMINA */
+/* SERVICIOS INICIA */
+@import "../scss/comps/serviciosmain";
+/* SERVICIOS TERMINA */
 /* CONOCENOS INCIA */
 @import "../scss/comps/conocenos";
 /* CONOCENOS TERMINA */
+.bg-dark{
+    background-color: $color1 !important;
+}
