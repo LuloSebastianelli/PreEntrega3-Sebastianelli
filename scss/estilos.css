@@ -1,6 +1,6 @@
 /* BANNER INICIA */
 .banner {
-  background-image: url(../assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.png);
+  background-image: url(../assets/regular_1708x683_cover-default-cover-1-0489a6d7ee79e57ba5c63dc1f5a412a7.webp);
   height: 73vh;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@
 /* FEATURES TERMINA */
 /* MUESTRA INICIA */
 .bg-muestra {
-  background-color: #31598B;
+  background-image: linear-gradient(to bottom, #011936, #011d3e, #002146, #01254f, #012957, #012957, #012957, #012957, #01254f, #002146, #011d3e, #011936);
 }
 .bg-muestra h1 {
   font-size: 1.75rem;
@@ -80,6 +80,10 @@
 .card-title {
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+.card {
+  border: 2px solid black;
 }
 
 /* CARDS TERMINA */
@@ -209,6 +213,9 @@
 .main-servicios p {
   text-shadow: 1px 1px 3px #363D43;
   font-size: 1.1rem;
+}
+.main-servicios h2 {
+  text-shadow: 2px 2px 5px #363D43;
 }
 
 .carousel-item img {

@@ -1,3 +1,9 @@
 1-Cambio de h4 de cards por em
-2-Ingreso mas correcto del atributo alt en las imagenes
-3-
+2-Cambio mas correcto al uso del atributo alt en las imagenes
+3-Optimizacion de las imagenes usadas en la pagina
+4-Etiqueta meta description agregada en todas las paginas
+5-Etiqueta meta keywords agregada en todas las paginas
+6-Conversion de imagenes a webp
+7-Label a las redes para mayor accesibilidad
+8-Label a los input radio en contactanos
+9-Title en el iframe del mapa en contactanos
