@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../scss/estilos.css">
+    <link rel="stylesheet" href="../scss/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Conocenos, Regalado Inc</title>
     <meta name="description" content="Conocé nuestros valores y un poco mas de cada persona que trabaja en la empresa">
     <meta name="keywords" content="equipo, regalado, regalos, regalo, principios, valores">
@@ -45,13 +50,12 @@
     <main>
         <div class="container text-white container-cono">
             <div class="row">
-                <div class="col-md-6 offset-xl-2 col-xl-4 mt-4 mb-3">
+                <div class="col-md-6 offset-xl-2 col-xl-4 mt-4 mb-3 wow animate__backInLeft">
                     <h1 class="text-center mb-3 h1-cono">Conocenos!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aperiam ea maxime voluptatibus fuga vero quis fugiat ipsa distinctio placeat vel, corporis ut recusandae laborum laudantium natus, magni autem accusamus laborum modi recusandae architecto doloribus beatae atque eveniet quis incidunt nulla corrupti odio, asperiores quidem id dolorum? Eius ut dolorum neque necessitatibus!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis, ab harum neque, quae asperiores provident aliquam, fuga tempora reprehenderit itaque! Eius aperiam odit praesentium minus laboriosam sint? Blanditiis, sint? Exercitationem aperiam similique id nobis explicabo.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, inventore incidunt expedita porro voluptatibus. tempore ipsa magni facilis velit aliquam fugiat soluta culpa voluptatem!</p>
+                    <p>Somos un equipo conformado por 2 personas, <span>Thomas James</span> (Regalador) y <span>Clara Mente</span> (Artista) empezamos con una idea para mejorar la calidad de vida de la gente y de a poco nos convertimos en lo que somos ahora, la marca lider de regaleria en todo el pais, Seguimos innovando y expandiendonos sin perder nuestros principios y valores.</p>
+                    <p><span>Regalado Inc</span> tiene nuestra impronta. Esos mismos valores que nos ayudaron a transitar nuestros estudios y nuestros primeros pasos profesionales, se convirtieron en la esencia de este emprendimiento, y en un modo de ser y hacer para nosotros.</p>
                 </div>
-                <div class="col-md-6 col-xl-4 mt-4 mb-3 text-center">
+                <div class="col-md-6 col-xl-4 mt-4 mb-3 text-center wow animate__backInRight">
                     <img class="img-fluid rounded" src="../assets/personas_de_pie.webp" alt="2 personas de pie">
                 </div>
             </div>
@@ -68,7 +72,7 @@
             </div>
             <div class="row">
                 <div class="col mb-3">
-                    <p>© 2024 lorem Inc. Todos los derechos reservados.</p>
+                    <p>© 2024 Regalado Inc. Todos los derechos reservados.</p>
                 </div>
             </div>
             <div class="row">
@@ -91,5 +95,9 @@
     </footer>
     <!-- FOOTER TERMINA -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="../scss/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

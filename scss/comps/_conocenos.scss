@@ -2,21 +2,27 @@
     font-weight: 600;
     text-shadow: $tshadow;
 }
-.container-cono p{
-font-size: 1rem;
-}
-.container-cono img{
-    border: solid 5px #363D43;
-}
+.container-cono{
+    img{
+        border: solid 5px #363D43;
+    }
+    span{
+        color: #ADE25D;
+        text-decoration: underline;
+    }
+} 
+
 
 @include mediaquery(768px) {
     .container-cono p{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 }
-
-@include mediaquery(991px) {
+@include mediaquery(992px) {
     .container-cono p{
-        font-size: 1.125rem;
+        font-size: 1.15rem;
+    }
+    .h1-cono{
+        font-size: 3rem;
     }
 }

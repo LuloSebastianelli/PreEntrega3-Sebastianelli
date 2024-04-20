@@ -232,22 +232,25 @@
   text-shadow: 2px 2px 5px #363D43;
 }
 
-.container-cono p {
-  font-size: 1rem;
-}
-
 .container-cono img {
   border: solid 5px #363D43;
+}
+.container-cono span {
+  color: #ADE25D;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
   .container-cono p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .container-cono p {
-    font-size: 1.125rem;
+    font-size: 1.15rem;
+  }
+  .h1-cono {
+    font-size: 3rem;
   }
 }
 /* CONOCENOS TERMINA */
